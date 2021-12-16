@@ -18,10 +18,13 @@ Please first install the following dependencies:
 
 You also need to install these third party tools.
 
-`BLAT: https://genome.ucsc.edu/FAQ/FAQblat.html <https://genome.ucsc.edu/FAQ/FAQblat.html>`_
-`BLAST: https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download<https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download>`_
-`Blasr: https://github.com/PacificBiosciences/blasr<https://github.com/PacificBiosciences/blasr>`_
-`Sparc: https://github.com/yechengxi/Sparc<https://github.com/yechengxi/Sparc>`_
+`BLAT <https://genome.ucsc.edu/FAQ/FAQblat.html>`_
+
+`BLAST <https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download>`_
+
+`Blasr <https://github.com/PacificBiosciences/blasr>`_
+
+`Sparc <https://github.com/yechengxi/Sparc>`_
 
 After that, you can clone our repository.
 
