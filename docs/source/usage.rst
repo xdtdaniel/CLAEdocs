@@ -70,32 +70,34 @@ For the output, you will find a folder like **RCArun.fasta_20211216-141253_files
 
 Here we assume that we are using a 40-core machine.
 
-RCArun.fasta_20211216-141253_files/
-├── blastn
-│   ├── blastn_0.csv
-│   ├── ...
-│   ├── blastn_39.csv
-├── consensus.log
-├── results
-│   ├── no_ref
-│   │   └── fasta
-│   └── ref
-│       ├── fasta
-│       │   └── consensus_ref_s_2021-12-16_RCArun.fasta
-│       ├── Result_sparc_0_40_RCArun.fasta.csv
-│       ├── Result_sparc_0.csv
-│       ├── ...
-│       └── Result_sparc_39.csv
-└── temp_df
-    ├── df_w_seqs_no_blat_0.csv
-    ├── ...
-    ├── df_w_seqs_no_blat_39.csv
-    ├── lseqs_df_0.csv
-    ├── ...
-    ├── lseqs_df_39.csv
-    ├── Q_trimming_0.csv
-    ├── ...
-    └── Q_trimming_39.csv
+.. code-block:: console
+
+   RCArun.fasta_20211216-141253_files/
+   ├── blastn
+   │   ├── blastn_0.csv
+   │   ├── ...
+   │   ├── blastn_39.csv
+   ├── consensus.log
+   ├── results
+   │   ├── no_ref
+   │   │   └── fasta
+   │   └── ref
+   │       ├── fasta
+   │       │   └── consensus_ref_s_2021-12-16_RCArun.fasta
+   │       ├── Result_sparc_0_40_RCArun.fasta.csv
+   │       ├── Result_sparc_0.csv
+   │       ├── ...
+   │       └── Result_sparc_39.csv
+   └── temp_df
+      ├── df_w_seqs_no_blat_0.csv
+      ├── ...
+      ├── df_w_seqs_no_blat_39.csv
+      ├── lseqs_df_0.csv
+      ├── ...
+      ├── lseqs_df_39.csv
+      ├── Q_trimming_0.csv
+      ├── ...
+      └── Q_trimming_39.csv
 
 The consensus results in fasta format can be found at RCArun.fasta_20211216-141253_files/results/ref/fasta/consensus_ref_s_2021-12-16_RCArun.fasta.
 The temporary files are remained for debug purposes.
@@ -111,32 +113,34 @@ For the output, you will find a folder like **RCArun.fasta_20211216-141253_files
 
 Here we assume that we are using a 40-core machine.
 
-RCArun.fasta_20211216-141253_files/
-├── blastn
-│   ├── blastn_0.csv
-│   ├── ...
-│   ├── blastn_39.csv
-├── consensus.log
-├── results
-│   ├── no_ref
-│   │   ├── fasta
-│   │   │   └── consensus_no_ref_s_2021-12-16_RCArun.fasta
-    │   ├── Result_sparc_0_40_RCArun.fasta.csv
-│   │   ├── Result_sparc_0.csv
-│   │   ├── ...
-│   │   └── Result_sparc_39.csv
-│   └── ref
-│       └── fasta
-└── temp_df
-    ├── df_w_seqs_no_blat_0.csv
-    ├── ...
-    ├── df_w_seqs_no_blat_39.csv
-    ├── lseqs_df_0.csv
-    ├── ...
-    ├── lseqs_df_39.csv
-    ├── Q_trimming_0.csv
-    ├── ...
-    └── Q_trimming_39.csv
+.. code-block:: console
+
+   RCArun.fasta_20211216-141253_files/
+   ├── blastn
+   │   ├── blastn_0.csv
+   │   ├── ...
+   │   ├── blastn_39.csv
+   ├── consensus.log
+   ├── results
+   │   ├── no_ref
+   │   │   ├── fasta
+   │   │   │   └── consensus_no_ref_s_2021-12-16_RCArun.fasta
+   │   │   ├── Result_sparc_0_40_RCArun.fasta.csv
+   │   │   ├── Result_sparc_0.csv
+   │   │   ├── ...
+   │   │   └── Result_sparc_39.csv
+   │   └── ref
+   │       └── fasta
+   └── temp_df
+      ├── df_w_seqs_no_blat_0.csv
+      ├── ...
+      ├── df_w_seqs_no_blat_39.csv
+      ├── lseqs_df_0.csv
+      ├── ...
+      ├── lseqs_df_39.csv
+      ├── Q_trimming_0.csv
+      ├── ...
+      └── Q_trimming_39.csv
 
 The consensus results in fasta format can be found at RCArun.fasta_20211216-141253_files/results/no_ref/fasta/consensus_ref_s_2021-12-16_RCArun.fasta.
 The temporary files are remained for debug purposes.
