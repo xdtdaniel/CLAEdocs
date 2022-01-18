@@ -1,14 +1,14 @@
 Welcome to CLAE's documentation!
 ===================================
 
-Please view the project at GitHub `CLAE <https://github.com/xdtdaniel/SequenceExtractionAndConsensusFinding>`_
+Please view the project at GitHub `CLAE <https://github.com/xdtdaniel/CLAE>`_
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to do :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   
 
 Contents
 --------
